@@ -1,0 +1,63 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600;
+  background: rgb(0, 0, 0);
+  color: rgba(0, 255, 0);
+  border-style: solid;
+  border-color: rgba(0, 255, 0);
+  margin: 10px;
+}
+
+#text{
+  margin-right: 60px;
+  margin: 15px;
+}
+
+p {
+  visibility: hidden;
+  display: inline;
+  border-right: 1px solid rgb(255, 255, 255);
+}
+
+h1 {
+  margin: -20px;
+  padding: 37px;
+}
+
+img {
+    visibility: hidden;
+    clear: right;
+    height: 250px;
+    width: 250px;
+    
+}
+
+#image {
+    background-color: black;
+    border-style: hidden;
+    border-color: rgba(0, 255, 0);
+    border-image: auto;
+    border-right: 3px;
+    border-right-style: solid;
+    border-right-color: rgba(0, 255, 0);
+    margin-right: -3px;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+}
+
+li {
+  visibility: hidden;
+}
+
+a {
+  visibility: hidden;
+  color: rgb(0, 255, 0);
+}
+
+
