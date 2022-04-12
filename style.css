@@ -23,6 +23,11 @@ p {
   border-right: 1px solid rgb(255, 255, 255);
 }
 
+h2 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 18px;
+}
+
 h1 {
   margin: -20px;
   padding: 37px;
@@ -58,6 +63,10 @@ li {
 a {
   visibility: hidden;
   color: rgb(0, 255, 0);
+}
+
+#enter {
+  visibility: visible;
 }
 
 

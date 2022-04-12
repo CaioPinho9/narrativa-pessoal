@@ -4,8 +4,22 @@ var speed = 60;
 var paragraph = 0;
 var sound = 0;
 var sSound = 0;
+var clicked = false;
 
-start();
+addEventListenerOnce(document, "click", function (event) {
+    start();
+});
+
+addEventListenerOnce(document, "touch", function (event) {
+    start();
+});
+
+function addEventListenerOnce(target, type, listener) {
+    target.addEventListener(type, function start() {
+        target.removeEventListener(type, start);
+        listener.apply(this, arguments);
+    });
+}
 
 function changeImage() {
     if (paragraph == 2) {
