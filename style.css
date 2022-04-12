@@ -26,6 +26,7 @@ p {
 h2 {
   font-family: 'Source Code Pro', monospace;
   font-size: 18px;
+  display: inline;
 }
 
 h1 {
